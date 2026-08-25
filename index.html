@@ -1,200 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mohamed yasser al-farana - Software Developer</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .project-links {
-        position: relative;
-        z-index: 10;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio and CV of Mohamed Yasser Al-Farana, Software Engineer and application developer.">
+    <title>Mohamed Yasser Al-Farana | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <nav class="container">
-        <a href="#about" class="logo">Mohamed Yasser Al-Farana</a>
+    <header class="site-header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a href="#home" class="logo" aria-label="Mohamed Yasser Al-Farana home">MY<span>.</span>
+        </a>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#cv">CV</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
+        <a class="nav-cta" href="mailto:mhaumadboos@gmail.com">Let's talk <span aria-hidden="true">↗</span>
+        </a>
       </nav>
     </header>
-
     <main>
-      <section id="hero">
-        <div class="hero-content container">
-          <h1>Hi, I'm Mohamed</h1>
-          <p class="subtitle">
-            A motivated Software Engineering graduate | Flutter Developer | UI/UX Designer
-            with hands-on experience in mobile and web development,
-            focused on building scalable and user-friendly applications.
-          </p>
-          <a href="#projects" class="btn">View My Work</a>
-        </div>
-      </section>
-
-      <section id="about" class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-          <div class="about-text">
-            <p>
-              Hello! I'm a Software Engineering graduate based in Amman, Jordan.
-              I have hands-on experience in Flutter mobile development and UI/UX design.
-              I am proficient in the Software Development Life Cycle (SDLC) and
-              apply Software Design Patterns and SOLID principles to build scalable applications.
-              I gained practical experience during an internship at The Hope International,
-              developing Flutter-based mobile applications.
-            </p>
-            <p>
-              I enjoy turning ideas into real applications and continuously improving my skills
-              through hands-on projects and learning.
-            </p>
-
-            <h3>Education</h3>
-            <p>
-              <strong>B.Sc. in Software Engineering</strong> – Applied Science Private University, Jordan (2025)
-            </p>
-
-            <h3>Professional Experience</h3>
-            <h4>Mobile App Development Intern (Flutter) – The Hope International, Amman, Jordan (April 2025 – June 2025)</h4>
-            <ul>
-              <li>Developed mobile applications using Dart and Flutter frameworks.</li>
-              <li>Applied SDLC principles during UI implementation, state management, and app deployment.</li>
-              <li>Collaborated with developers on debugging, testing, and performance optimization.</li>
-              <li>Worked within a professional development team following best development practices.</li>
-            </ul>
-
-            <h3>Technical Skills</h3>
-            <ul class="skills-list">
-              <li><strong>Mobile Development:</strong> Flutter, Dart, State Management, Firebase Integration, API Handling</li>
-              <li><strong>Software Engineering:</strong> SDLC, Design Patterns, SOLID Principles, OOP</li>
-              <li><strong>Cloud Computing:</strong> AWS Cloud Practitioner (In Progress), VPC Architecture, EC2, S3</li>
-              <li><strong>Languages:</strong> Java, C++, Python, JavaScript, SQL, ASP.NET, HTML, CSS</li>
-              <li><strong>Tools:</strong> Git/GitHub, Visual Studio Code, Android Studio</li>
-              <li><strong>Design Tools:</strong> Figma (UI/UX Design, Wireframing, Prototyping)</li>
-            </ul>
-
-            <h3>Certifications</h3>
-            <ul>
-              <li>
-                <strong>AWS Cloud Practitioner Badges</strong> – Cloud Infrastructure & Security Modules
-                <br>
-                You can view my verified achievements on
-                <a href="https://www.credly.com/users/mohammed-yasser.575af17c/badges#credly" target="_blank" rel="noopener noreferrer">Credly</a>.
-              </li>
-              <li>
-                <strong>The Complete Full-Stack Web Development Bootcamp</strong> – Udemy (Instructor: Dr. Angela Yu)
-              </li>
-            </ul>
-
-            <h3>Languages</h3>
-            <ul>
-              <li><strong>Arabic:</strong> Native</li>
-              <li><strong>English:</strong> Intermediate (B1)</li>
-            </ul>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span>
+              </span> Available for opportunities</p>
+            <h1>Building thoughtful <em>digital</em> experiences.</h1>
+            <p class="hero-summary">I'm Mohamed Yasser Al-Farana — a Software Engineering graduate and AWS Certified Cloud Practitioner who builds reliable digital products from Amman, Jordan.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="button button-primary">Explore my work <span aria-hidden="true">↓</span>
+              </a>
+              <a href="#cv" class="text-link">View CV <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+          <div class="hero-panel" aria-label="Professional profile">
+            <p class="hero-panel-label">01 / Profile</p>
+            <div class="orb orb-one">
+            </div>
+            <div class="orb orb-two">
+            </div>
+            <div class="profile-initials">MY</div>
+            <div class="hero-panel-bottom">
+              <span>Software Engineer</span>
+              <span>Amman, Jordan</span>
+            </div>
           </div>
         </div>
       </section>
-
-      <section id="projects">
+      <section id="about" class="section container about-section">
+        <div class="section-heading">
+          <p class="eyebrow">About me</p>
+          <h2>An engineer who cares about the details.</h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">I turn ideas into useful, user-friendly software. My work combines sound engineering practices, scalable application design, and an eye for considered UI/UX.</p>
+          <p>I have hands-on experience across the software development lifecycle: translating requirements into maintainable mobile and web applications, designing interfaces, and testing and improving features. I also bring practical AWS infrastructure knowledge covering EC2, VPC networking, S3 security, and cloud security fundamentals.</p>
+          <div class="quick-facts">
+            <div>
+              <strong>2025</strong>
+              <span>B.Sc. Software Engineering</span>
+            </div>
+            <div>
+              <strong>AWS</strong>
+              <span>Certified Cloud Practitioner</span>
+            </div>
+            <div>
+              <strong>Amman</strong>
+              <span>Jordan-based</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="cv" class="section cv-section">
         <div class="container">
-          <h2>My Projects</h2>
-          <div class="project-grid">
-            <div class="project-card">
-              <img src="images/RentOMove.png" alt="RentOMove project picture " />
-              <h3>RentOMove – Car Rental Application</h3>
-              <p>
-                Developed a full-featured car rental mobile application using Flutter.
-                Implemented authentication, car listings, and booking management.
-                Applied design patterns and designed intuitive UI/UX components using Figma.
-              </p>
-              <div class="project-links">
-                <a href="https://github.com/joker12678456/Flutter-" target="_blank" rel="noopener noreferrer" class="btn-secondary"
-                  >Source Code</a
-                >
+          <div class="section-heading cv-heading">
+            <p class="eyebrow">Curriculum vitae</p>
+            <h2>Experience, education<br>&amp; capabilities.</h2>
+          </div>
+          <div class="cv-layout">
+            <article class="cv-card cv-experience">
+              <p class="card-number">01</p>
+              <h3>Experience</h3>
+              <div class="timeline-item">
+                <p class="timeline-date">Apr 2025 — Jun 2025</p>
+                <h4>Mobile App Development Intern <span>· The Hope International</span>
+                </h4>
+                <p>Contributed to application development, debugging, testing, and deployment while applying SDLC practices, state management, and maintainable UI implementation. Completed 32 hours of structured Flutter training during the internship.</p>
               </div>
-            </div>
-            <div class="project-card">
-              <img src="images/Drum Kit.png" alt="Drum Kit project picture  " />
-              <h3>Drum Kit</h3>
-              <p>
-                An interactive Drum Kit web app that plays drum sounds using keyboard inputs, built with HTML, CSS, and JavaScript.
-              </p>
-              <div class="project-links">
-                <a href="https://drive.google.com/drive/folders/1kPWVmZTzto6xUCj1uG73FiK6aiIa1Sh-?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-secondary"
-                  >Source Code</a
-                >
+            </article>
+            <article class="cv-card">
+              <p class="card-number">02</p>
+              <h3>Education</h3>
+              <div class="timeline-item">
+                <p class="timeline-date">2025</p>
+                <h4>B.Sc. in Software Engineering</h4>
+                <p>Applied Science Private University, Jordan</p>
               </div>
-            </div>
-            <div class="project-card">
-              <img src="images/qr_img.png" alt="QR Code Generator project picture" />
-              <h3>QR Code Generator</h3>
-              <p>
-                A Node.js-based QR Code Generator that converts user input into scannable QR codes.
-              </p>
-              <div class="project-links">
-                <a href="https://drive.google.com/drive/folders/13KNRg9tOHV4NLwgzEeitAh9qAswV6xMN?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-secondary"
-                  >Source Code</a
-                >
+              <div class="certification">
+                <span>Certificate</span>
+                <a href="https://www.credly.com/users/mohammed-yasser.575af17c/badges#credly" target="_blank" rel="noopener noreferrer">AWS Certified Cloud Practitioner ↗</a>
               </div>
-            </div>
-            <div class="project-card">
-              <img src="images/rent_front.png" alt="car rental dashboard project picture  " />
-              <h3>a frontend project for car rental dashboard </h3>
-              <p>
-                A responsive car rental dashboard built with HTML, CSS, and JavaScript.
-              </p>
-              <div class="project-links">
-                <a href="https://drive.google.com/drive/folders/1E47HkibFHjXBPagr4MnI33hbWTD11sMy?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-secondary"
-                  >Source Code</a
-                >
+            </article>
+            <article class="cv-card skills-card">
+              <p class="card-number">03</p>
+              <h3>Technical skills</h3>
+              <div class="skill-groups">
+                <div>
+                  <span>Languages &amp; platforms</span>
+                  <p>Java · C++ · Python · JavaScript · SQL · Dart · Flutter · React</p>
+                </div>
+                <div>
+                  <span>Software engineering</span>
+                  <p>SDLC · OOP · SOLID · Design Patterns · Testing · REST APIs</p>
+                </div>
+                <div>
+                  <span>Tools &amp; design</span>
+                  <p>Git/GitHub · Figma · Android Studio · VS Code · AWS EC2 · VPC · S3</p>
+                </div>
               </div>
-            </div>
-            <div class="project-card">
-              <img src="images/simon.png" alt="car rental dashboard project picture  " />
-              <h3>a Simon Game project that i did when i was learning my The Complete Full-Stack Web Development Course</h3>
-              <p>
-                a Simon Game that you You hear a sound, then you tap on the colors that match the color.
-              </p>
-              <div class="project-links">
-                <a href="https://drive.google.com/drive/folders/1eT2exHWdjZPrMD8WZyLL_OAK6EpJJLcA?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-secondary"
-                  >Source Code</a
-                >
-              </div>
-            </div>
+            </article>
           </div>
         </div>
       </section>
-
-      <section id="contact" class="container">
-        <h2>Get In Touch</h2>
-        <p>
-          I'm currently open to new opportunities. If you have a question or
-          just want to say hi, feel free to reach out!
-        </p>
-        <p>
-          <strong>Phone:</strong> 0791451868
-          <br>
-          <strong>Email:</strong> <a href="mailto:mhaumadboos@gmail.com">mhaumadboos@gmail.com</a>
-        </p>
-        <a href="mailto:mhaumadboos@gmail.com" class="btn">Send Email</a>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/mohammed-yasser-a6296635a" target="_blank" title="LinkedIn">LinkedIn</a>
-          <a href="https://joker12678456.github.io/portfolio-web/" target="_blank" title="Portfolio">Portfolio</a>
-          <a href="https://www.instagram.com/mhaumad_91/" target="_blank" title="instagram">Instagram</a>
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="projects-intro">
+            <div class="section-heading">
+              <p class="eyebrow">Selected work</p>
+              <h2>Things I've built.</h2>
+            </div>
+            <p>Four projects that demonstrate practical software engineering across mobile and web applications.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-image">
+                <img src="images/RentOMove.png" alt="RentOMove car rental application screens">
+              </div>
+              <div class="project-content">
+                <p class="project-type">Mobile engineering · Flutter</p>
+                <h3>RentOMove</h3>
+                <p>A full-featured car-rental application with authentication, car listings, booking management, and a focused mobile UI.</p>
+                <a href="https://github.com/joker12678456/Flutter-" target="_blank" rel="noopener noreferrer" class="project-link">View source <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-image">
+                <img src="images/qr_img.png" alt="QR Code Generator application">
+              </div>
+              <div class="project-content">
+                <p class="project-type">Node.js · Utility</p>
+                <h3>QR Code Generator</h3>
+                <p>A simple tool that turns user input into a clean, scannable QR code.</p>
+                <a href="https://github.com/joker12678456/QR-Code-Generator" target="_blank" rel="noopener noreferrer" class="project-link">View source <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-image">
+                <img src="images/Drum Kit.png" alt="Drum Kit web application">
+              </div>
+              <div class="project-content">
+                <p class="project-type">JavaScript · Web app</p>
+                <h3>Drum Kit</h3>
+                <p>An interactive browser drum kit that responds to keyboard input with real drum sounds.</p>
+                <a href="https://github.com/joker12678456/Drum-Kit" target="_blank" rel="noopener noreferrer" class="project-link">View source <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-image">
+                <img src="images/rent_front.png" alt="Car rental dashboard interface">
+              </div>
+              <div class="project-content">
+                <p class="project-type">HTML · CSS · JavaScript</p>
+                <h3>Car Rental Site</h3>
+                <p>A responsive car-rental dashboard interface designed for clear browsing and booking flows.</p>
+                <a href="https://github.com/joker12678456/Car-Rental-Site" target="_blank" rel="noopener noreferrer" class="project-link">View source <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <div class="container contact-box">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Have an idea?<br>
+            <em>Let's make it real.</em>
+          </h2>
+          <a href="mailto:mhaumadboos@gmail.com" class="button button-light">Send an email <span aria-hidden="true">↗</span>
+          </a>
+          <div class="contact-details">
+            <a href="mailto:mhaumadboos@gmail.com">mhaumadboos@gmail.com</a>
+            <span>·</span>
+            <a href="tel:+962791451868">+962 79 145 1868</a>
+            <span>·</span>
+            <a href="https://www.linkedin.com/in/mohammed-yasser-a6296635a" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
         </div>
       </section>
     </main>
-
     <footer>
       <div class="container">
-        <p>&copy; 2025 Mohamed Yasser Al-Farana. All Rights Reserved.</p>
+        <p>© 2026 Mohamed Yasser Al-Farana. Crafted with care.</p>
       </div>
     </footer>
-
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
   </body>
+</html>
