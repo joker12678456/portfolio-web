@@ -1,6 +1,6 @@
 # Mohamed Yasser Al-Farana | Portfolio
 
-A personal portfolio website for Mohamed Yasser Al-Farana, a Software Engineering graduate and AWS Certified Cloud Practitioner based in Amman, Jordan.
+Mohamed Yasser Al-Farana, a Software Engineering graduate and AWS Certified Cloud Practitioner based in Amman, Jordan.
 
 ## About
 
@@ -14,19 +14,6 @@ I work with JavaScript, Java, Python, C++, SQL, Dart, Flutter, and React. I also
 - [QR Code Generator](https://github.com/joker12678456/QR-Code-Generator) — utility that creates scannable QR codes from user input.
 - [Drum Kit](https://github.com/joker12678456/Drum-Kit) — interactive browser drum kit built with JavaScript.
 - [Car Rental Site](https://github.com/joker12678456/Car-Rental-Site) — responsive car-rental dashboard interface.
-
-## Built with
-
-- HTML5
-- CSS3
-- JavaScript
-
-## Run locally
-
-1. Clone this repository.
-2. Open `index.html` in your browser.
-
-No build step or package installation is required.
 
 ## Contact
 
